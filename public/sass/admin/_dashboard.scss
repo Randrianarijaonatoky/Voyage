@@ -1,0 +1,338 @@
+.Dashboard{
+    display: flex;
+    height: auto;
+    
+    &-listes{
+        
+        background-color: var(--blanc);
+        // background-image: linear-gradient(180deg, #4e73df 10%, #527aeb 100%);
+        padding: 2rem;
+        height: auto;
+        background-size: cover;
+        // display: grid;
+        // grid-row-gap: 2rem;
+        color: var(--blanc);
+        margin: 0 1rem;
+        // flex: 2;
+
+        &-icons{
+            // margin-right: 1rem;
+        }
+
+        &-profile{
+            text-align: center;
+
+            &-pseudo{
+                font-weight: bold;
+                font-size: 2rem;
+
+                color: var(--color-first);
+                
+            }
+        }
+
+        &-titleVoyage{
+            cursor: pointer;
+            align-items: center;
+        }
+
+        &-liste{
+            margin-bottom: 1rem;
+            
+        }
+        &-accueil{
+            margin: 1rem 0;
+        }
+
+       
+        &-voyage{
+            // background-color: var(--gris);
+            padding: 8px 9px;
+            border-radius: 8px
+            
+            
+        }
+        &-Utilisateur{
+            // background-color: var(--gris);
+            border-radius: 8px;
+            
+            &-content{
+                
+                background-color: rgba(75, 75, 75, 0.337);
+                
+            }
+            
+        }
+
+        &-btn1{
+            width: 1rem;
+            text-align: center;
+            float: right;
+            vertical-align: 0;
+            /* border: 0; */
+            font-weight: 400;
+            font-size: 1.5rem;
+        }
+
+        &-btn1-2{
+            width: 1rem;
+            text-align: center;
+            float: right;
+            vertical-align: 0;
+            /* border: 0; */
+            font-weight: 400;
+            font-size: 1.5rem;
+        }
+        &-btn2{
+            width: 1rem;
+            text-align: center;
+            float: right;
+            vertical-align: 0;
+            /* border: 0; */
+            font-weight: 400;
+            font-size: 1.5rem;
+        }
+
+        &-btn2-1{
+            width: 1rem;
+            text-align: center;
+            float: right;
+            vertical-align: 0;
+            /* border: 0; */
+            font-weight: 400;
+            font-size: 1.5rem;
+        }
+
+        
+    }
+
+    &-content{
+        flex: 1;
+        background-color: rgb(234, 234, 234);
+
+        &-title{
+            text-align: center;
+            margin-top: 1rem;
+            color: var(--color-first);
+        }
+
+        &-cards{
+            
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem 2rem;
+
+            &-card{
+                border-left: 6px solid;
+                border-radius: 15px;
+                border-left-color: var(--color-first);
+                background-color: white;
+                padding: 1.5rem 2rem;
+                color: var(--noir);
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                flex-grow: 1;
+                width: 300px;
+                // flex-basis: 300;
+                
+
+                &-icon{
+                    font-size: 2rem;
+                    // color: #c8cbd7;
+                    color: var(--gris);
+                }
+
+                &-item{
+                    flex: 3;
+                    justify-content: space-between;
+                    
+                    &-title{
+                        color: var(--color-second);
+                    }
+                    
+                    
+                }
+
+                &-nbr{
+                    // text-align: center;
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        &-cards1{
+            display: flex;
+            gap: 1rem;
+            padding: 2rem ;
+            
+            &-reserva{
+                background-color: var(--blanc);
+                // width: 60%;
+                flex: 2;
+                border-radius: 10px;
+                // height: 260px;
+                // padding: 1rem;
+                
+                &-card{
+                    overflow-y: scroll;
+                    height: 180px;
+                    
+                }
+                &-title{
+                    // background-color: #dddfeb;
+                    color: var(--color-second);
+                    padding: 0 1rem ;
+                }
+
+                &-detail{
+                    display: flex;
+                    // align-items: center;
+                    gap: 2rem;
+                    
+
+                }
+
+                
+                &-listes{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 2rem;
+                    padding: 1rem ;
+                    margin: 1rem;
+                    align-items: center;
+                    color: var(--noir);
+                    background-color: #dddfeb;
+
+                    &-profil{
+                        margin: 0!important;
+                        display: flex;
+                        gap: 1rem;
+                        // margin: 0 auto 20px;
+                        &-img{
+                            // width: 100%;
+                            border: 2px solid var(--color-first);
+                            width: 75px;
+                            height: 75px;
+                            padding: 2px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                &-list{
+                    display: flex;
+                    // align-items: center;
+                    gap: 10px;
+
+                    &-icon{
+                        font-size: 1.5rem;
+                        color: var(--color-first);
+                    }
+                    &-value{
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                }
+
+            }
+
+            &-avis{
+                
+                background-color: var(--blanc);
+                // width: 40%;
+                flex: 1;
+                border-radius: 10px;
+                // height: 260px;
+
+                &-content{
+                    margin: 1rem;
+
+                    overflow-y: scroll;
+                    height: 180px;
+                    &-cards{
+                        
+                        &-card{
+                            align-items: center;
+                            padding: 1rem;
+                            margin-bottom: 1rem;
+                            display: flex;
+                            gap: 1rem;
+                            justify-content: space-between;
+                            color: var(--noir);
+                            background-color: #dddfeb;
+                            
+    
+                            &-profil{
+                                display: flex;
+                                gap: 1rem;
+                                margin: 0!important;
+                                align-items: center;
+                                &-img{
+                                    border: 2px solid var(--color-first);
+                                    width: 75px;
+                                    height: 75px;
+                                    padding: 2px;
+                                    border-radius: 50%;
+    
+                                }
+                                &-pseudo{
+                                    color: var(--color-first)!important;
+                                }
+
+                                &-text{
+
+                                    &-desc{
+                                        // overflow-y: scroll;
+                                    }
+                                }
+    
+                            }
+                        }
+                    }
+
+                }
+            }
+    
+        }
+    }
+
+    &-tables{
+
+        &-img{
+            width: 7%;
+            height: 7%;
+        }
+    }
+
+
+
+}
+
+.lien-nav{
+    color: var(--color-first);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    // font-family:  serif;
+    opacity: 0.8;
+    margin: 0 8px;
+    width: 100%;
+}
+
+.lien-nav:hover{
+    // background-color: var(--gris);
+    color: var(--color-first)!important;
+    opacity: 2;
+    // padding: 8px 9px;
+}
+
+.divkel{
+    width: 100%;
+}
+.divkel:hover{
+    border-radius: 20px;
+    background-color: var(--blanc);
+    // padding: 8px 9px;
+}

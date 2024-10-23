@@ -1,0 +1,28 @@
+.contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    // background-color: var(--color-first);
+    color: var(--color-third);
+    padding: 2rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+
+    background-image: url(../images/Nosy-Be.jpg);
+
+    &-input{
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.805);
+    }
+    &-textarea{
+        margin: 1rem 0;
+        border-radius: 30px;
+    }
+
+    &-title{
+        text-align: center;
+    }
+}

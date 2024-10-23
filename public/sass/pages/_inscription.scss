@@ -1,0 +1,95 @@
+.inscription{
+
+    // background-color: var(--color-first);
+    
+    color: var(--color-third);
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    
+
+    display: flex;
+   
+    
+
+    background-image: url(../images/Nosy-Be.jpg);
+    background-size: cover;
+    // background-repeat: no-repeat;
+    
+
+    &-form{
+        transform: translateY(42px);
+
+
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-top: 2rem;
+        width: 50%;
+        margin: 2rem;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.404);
+        justify-content: center;
+        border-radius: 20px;
+
+        &-content{
+            position: relative;
+            width: 100%;
+            
+
+            &-icon{
+                position: absolute;
+                top: 2.2rem ;
+                right: 1rem;
+                color: var(--color-first);
+            }
+        }
+
+        &-title{
+            text-align: center;
+            margin-bottom: 1px!important;
+            
+            
+        }
+    
+        &-btn{
+            border-radius: 30px;
+    
+        }
+    }
+    
+
+    &-profile{
+        width: 50%;
+        margin: auto;
+        align-items: center;
+        background-color: red;
+
+
+        &-img{
+            width: 50%;
+            height: 30%;
+            border-radius: 50%;
+            margin: auto;
+            
+            border-color: var(--color-first);
+            
+            // margin: auto;
+        }
+
+        &-title{
+            text-align: center;
+            color: greenyellow;
+        }
+
+    }
+
+
+    
+}
+
+.input{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 15px;
+    // background-color: rgba(255, 255, 255, 0.345);
+}

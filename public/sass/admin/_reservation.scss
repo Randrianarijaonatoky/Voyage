@@ -1,0 +1,99 @@
+.reservationAdmin{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+
+    &-title{
+        text-align: center;
+        color: var(--color-first);
+        margin: 0 1rem;
+        font-size: 2rem;
+    }
+    &-cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem 2rem;
+
+        &-card{
+            border-left: 6px solid;
+            border-radius: 10px;
+            border-left-color: var(--color-first);
+            background-color: white;
+            padding: 1.5rem 2rem;
+            color: var(--noir);
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-grow: 1;
+            width: 300px;
+            justify-content: space-between;
+
+
+
+           
+
+            
+            &-item{
+                
+                flex: 3;
+
+                &-title{
+                    color: var(--color-second);
+                    font-size: 2rem;
+                }
+                
+                &-nbr{
+                    color: var(--noir); 
+                    font-size: 2rem;
+                    font-weight: 300;
+                    
+                }
+            }
+            &-value{
+                flex: 1;
+                text-align: end;
+
+                &-icon{
+                    font-size: 2rem;
+                    padding: 1rem;
+                    border: 2px solid var(--gris);
+                    border-radius: 10px;
+                }
+                &-icon:hover{
+                    color: var(--color-second);
+                }
+            }
+
+        }
+    }
+
+    &-table{
+        background-color: var(--blanc);
+        border-radius: 10px;
+        padding: 2rem;
+
+        &-titre{
+            background-color: var(--color-first);
+        }
+
+        &-content{
+
+            &-text{
+                vertical-align: baseline  ;
+            }
+            
+
+            &-image{
+                width: 60px;
+                height: 60px;
+                border-radius: 10px;
+                padding: 2px;
+                border: 2px solid var(--color-first);
+            }
+        }
+
+    }
+    
+
+    
+}

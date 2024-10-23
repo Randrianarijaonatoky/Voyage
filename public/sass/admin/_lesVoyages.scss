@@ -1,0 +1,142 @@
+.lesVoyages{
+    background-color: rgb(234, 234, 234);
+    flex: 1;
+    margin: 0 1rem;
+
+    &-add{
+        text-align: center;
+        color: var(--gris);
+        font-size: 2rem;
+    }
+    
+    &-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 1rem;
+        position: relative;
+        
+        margin-top: 1rem;
+        padding: 2rem;
+
+        &-card{
+            background-color: var(--blanc);
+            // border: 2px solid var(--color-first);
+            // width: 100%;
+            // padding: 1rem;
+            border-radius: 15px;
+            overflow: hidden;
+
+            &-title{
+                margin-top: 0.5rem;
+                color: var(--color-first);
+                text-align: center;
+            }
+            
+
+            &-img{
+                width: 100%;
+                // border-radius: 15px;
+                aspect-ratio: 4 /3 ;
+                // border-radius: 20px;
+            }
+
+            &-date{
+                color: var(--color-second);
+                text-align: center;
+            }
+
+            &-btn{
+                display: flex;
+                padding: 1rem;
+                align-items: center;
+                justify-content: space-between;
+
+                &-btn1{
+                    background-color: var(--color-first);
+                    color: var(--color-third);
+                    border: none;
+                    padding: 0.5rem 1rem ;
+                
+                }
+                
+                &-listes{
+                    align-items: center;
+                    display: flex;
+                    gap: 1rem;
+                    font-size: 1.5rem;
+
+                    &-edit:hover{
+                        color: var(--color-first);
+                    }
+                    &-delete:hover{
+                        color: var(--rouge);
+                    }
+
+
+                }
+
+            }
+        }
+
+        &-card:hover{
+            box-shadow:0px 0px 10px #626465;
+        }
+
+    }
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+    float: left;
+    width: 50%;
+  }
+  .cancelbtn:hover {
+    opacity: 1;
+    
+  }
+  
+  /* Add a color to the cancel button */
+  .cancelbtn {
+    background-color: #ccc;
+    color: black;
+    border: none;
+  }
+  .cancelbtn:hover {
+    opacity: 1;
+    
+  }
+  
+  /* Add a color to the delete button */
+  .deletebtn {
+    background-color: var(--color-second);
+    color: var(--blanc);
+    border: none;
+  }
+  
+  /* Add padding and center-align text to the container */
+  .container {
+    padding: 16px;
+    text-align: center;
+  }
+
+
+  /* The Modal (background) */
+.delete{
+    background-color: var(--blanc);
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    // width: 40%; /* Could be more or less, depending on screen size */
+    position: absolute;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 30%;
+    border: none;
+    
+    top: 40%;
+    // bottom: 50%;
+    
+    &-content{
+        background-color: var(--blanc);
+        padding: 1rem;
+    }
+}

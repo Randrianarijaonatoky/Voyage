@@ -1,0 +1,41 @@
+.connexion{
+    display: flex;
+    background-image: url(../images/Nosy-Be.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    &-form{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        // background-color: var(--color-first);
+        color: var(--color-third);
+        padding: 2rem;
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+        background-color: rgba(0, 0, 0, 0.404);
+        border-radius: 30px;
+        margin-bottom: 3rem;
+        &-btn{
+            margin: 1rem 0;
+        }
+    
+
+        &-input{
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 15px;
+            width: 100%;
+            
+        }
+    
+        &-title{
+            text-align: center;
+        }
+    }
+}
+

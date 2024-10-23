@@ -1,0 +1,23 @@
+.profile{
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(../images/Nosy-Be.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+
+
+    &-content{
+        width: 30%;
+        margin: auto;
+    }
+    
+    &-bg{
+        background-color: none!important;
+        height: 140px;
+    }
+    &-text{
+        background-color: var(--blanc);
+
+    }
+}

@@ -1,0 +1,68 @@
+.modification{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.5rem;
+    background-color: var(--blanc);
+    padding: 2rem;
+    color: var(--color-first);
+
+    &-content{
+        justify-content: center;
+
+    }
+
+
+    &-price{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        ;
+    }
+    &-input{
+        // background-color: var(--color-first);
+        border-radius: 20px;
+        padding: 0.6rem;
+        color: var(--color-first);
+        border: 2px solid;
+        border-color: var(--color-first);
+    }
+
+    &-title{
+        text-align: center;
+    }
+
+    &-date{
+        display: flex;
+        width: 100%;
+        margin: 0.5rem 0;
+        &-label{
+            margin-left: 1rem;
+
+        }
+    }
+    
+    &-image{
+        justify-content: center;
+
+        &-img{
+            width: 30%;
+            margin: auto;
+            // border-radius: 50%;
+            aspect-ratio: 1/0;
+        }
+    }
+
+
+    &-btn{
+        // margin-top: 1rem;
+    }
+}
+
+.title{
+    text-align: center;
+    // margin-bottom: 1rem;
+}

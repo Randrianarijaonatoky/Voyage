@@ -1,0 +1,60 @@
+@media(min-width:1200px){
+
+    html{
+        font-size: 110%;
+    }
+
+    .voyages{
+        &-cards{
+            &-card{
+
+                &-textes{
+                    top: 18%;
+
+                    &-title{
+                        font-size: 34px!important;
+                    }
+
+                    &-btn{
+                        
+                       padding: 1rem 3rem !important;
+
+                    }
+        
+                }
+            }
+        }
+    }
+
+    .acceuil{
+        &-textes{
+            font-size: 22px;
+            line-height: 55px;
+            left: 0;
+            right: 0;
+            top: 15%;
+
+            &-logo{
+                top: 28%;
+            }
+
+            &-title{
+                
+                font-size: 2rem;
+
+            }
+        }
+    }
+
+
+}
+
+@media(min-width:1402px){
+    
+    .acceuil{
+        &-textes{
+            top: 20%;
+        }
+    }
+}
+

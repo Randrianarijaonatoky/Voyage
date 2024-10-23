@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 234, 234)!important;
+    // background-color: var(--color-fourth)!important;
+    ::-webkit-scrollbar{
+        width: 20px;
+        background-color: none;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #4784ff88 ;
+        width: 6px;
+        height: 5rem;
+        border-radius: 50px;
+    }
+}
+
+@font-face {
+    font-family: ITCEDSCR;
+
+    src: url('../../font/ITCEDSCR.TTF');
+}
+
+html {
+    font-size: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none!important;
+    
+}
+
+a:hover{
+    color: rgb(253, 74, 74)!important;
+}
+:root{
+    --color-first: #4783ff;
+    // --color-first: #315ee5;
+    --color-second: rgb(253, 74, 74);
+    --color-third: white;
+    --color-fourth: #1f1f1d;
+    --color-fifth: rgb(255, 247, 4);
+
+    --gris: #858796;
+    --bleu-ciel:#36b9cc;
+    --blanc:#f8f9fc;
+    --rouge:rgb(253, 74, 74);
+    --jaune: #feb600;
+    --blue:#4e73df;
+    --noir:#5a5c69;
+}
+
+@font-face {
+    font-family: altone;
+    src: url(../../font/Altone-Light.ttf);
+}
+
+.btn1{
+    border: none;
+    text-align: center;
+    background-color: var(--color-second);
+    color: var(--color-third);
+    border-color: none;
+    padding: 1rem 2rem;
+    width: 50%;
+    margin: auto!important;
+    
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #001c35;
+}
+
+.btn1:hover{
+    background: var(--color-first);
+    color: var(--color-third)!important;
+    transition: 0.5;
+}
+
+.messages{
+
+    &-alert{
+        color: var(--color-second);
+    }
+
+    &-succes{
+        color: var(--color-first);
+    }
+}
+
+.btn-delete{
+    background: var(--rouge);
+    color: var(--blanc)!important;
+    padding: 5px  10px;
+    border: none;
+    
+}
+.btn-delete:hover{
+    background: none;
+    
+}

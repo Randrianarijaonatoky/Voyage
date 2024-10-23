@@ -1,0 +1,70 @@
+.messages{
+    background-color: gray  ;
+    width: 100%;
+    margin: 0 1rem;
+    
+    &-card{
+        // background-image: url(../../images/Nosy-Be.jpg);
+        
+        background-size: cover;
+        width: 60%;
+        margin: 0 auto;
+        
+        
+        &-mp{
+            background-color: aqua;
+            
+            padding: 1rem;
+            position: relative;
+
+            &-user{
+                display: flex;
+                gap: 1.5rem;
+                align-items: start;
+                width: 60%;
+                margin-bottom: 1rem;
+                // position: absolute;
+                left: 2rem;
+                // width: 60%;
+
+                &-pdp{
+                    border: 2px solid var(--color-first);
+                    width: 75px;
+                    height: 75px;
+                    padding: 2px;
+                    border-radius: 50%;
+
+
+                }
+
+                &-text{
+                    border: 2px solid black;
+                    border-radius: 15px;
+                    padding: 2px 5px;
+                    
+                }
+                
+            }
+            
+            &-admin{
+                padding: 2px 5px;
+                text-align: right;
+                position: absolute;
+                bottom: 0;
+                top: 70%;
+                right: 1rem;
+                
+                &-text{
+                    padding: 2px 5px;
+                    border: 2px solid black;
+                    border-radius: 15px;
+
+                }
+                
+
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,140 @@
+@media(max-width:999px){
+    .nav{
+
+        &-listes{
+            gap: 1rem;
+        }
+    }
+
+    .acceuil{
+        &-textes{
+            font-size: 20px;
+            line-height: 55px;
+            left: 0;
+            right: 0;
+            top: 11%;
+
+            &-title{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .voyages{
+        &-cards{
+            &-card{
+
+                &-textes{
+                    top: 20%;
+
+                    &-title{
+                        font-size: 32px;
+                    }
+
+                    &-btn{
+                        
+                       padding: 1rem 3rem ;
+
+                    }
+        
+                }
+            }
+        }
+    }
+
+    .voyageDetail{
+        &-cards{
+            &-card{
+                &-textes{
+                    &-title{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .inscription{
+        width: 80%;
+
+        &-form{
+            width: 60%;
+        }
+    }
+
+    .connexion{
+        &-form{
+            width: 60%;
+        }
+    }
+
+}
+
+@media(max-width:992px){
+    .nav{
+
+        &-listes{
+            flex-direction: column;
+            position: fixed;
+        }
+    }
+
+    .iconNav{
+        display: block;
+    }
+
+    
+
+    .voyages{
+        &-cards{
+            &-card{
+
+                &-textes{
+                    top: 20%;
+
+                    &-title{
+                        font-size: 28px;
+                    }
+
+                    &-price{
+                        font-size: 22px;
+                    }
+
+                    &-btn{
+                        
+                       padding: 1rem 2rem ;
+
+                    }
+        
+                }
+            }
+        }
+    }
+
+    .voyageDetail{
+        &-cards{
+            &-card{
+                &-textes{
+                    &-title{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .inscription{
+        width: 90%;
+
+        &-form{
+            width: 60%;
+        }
+    }
+
+    .connexion{
+        &-form{
+            width: 60%;
+        }
+    }
+        
+}

@@ -1,0 +1,26 @@
+RESERVATION
+  **formulaire pour user**
+     -nom 
+     -contact
+     -Destination
+     - nombre prs
+     -montant total
+ 
+  *** Dashboard****
+    section 1 (cards)
+    -total reservation
+    -montant total 
+  
+   section 2 
+   -nbr reservation de chaque voyage (cards)
+ 
+   section 3 (table)
+    -id 
+    -nom 
+    -contact 
+    -email 
+    -Nbr de pers
+    -Destination
+
+   
+

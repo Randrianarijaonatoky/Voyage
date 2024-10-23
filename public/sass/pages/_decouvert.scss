@@ -1,0 +1,119 @@
+.decouvert{
+    
+    // width: 80%;
+    // margin: 0 auto;
+    // // background-color: red;
+    // overflow: hidden;
+
+    // &-cards{
+    //     align-items: center;
+        
+
+    //     &-card{
+    //         display: flex;
+    //         gap: 1rem;
+
+    //         &-movie{
+    //             aspect-ratio: 3/2;
+    //             width: 400px;
+
+    //             &-video{
+    //                 width: 100%;
+    //             }
+    //         }
+
+            
+    //         &-images{
+    //             &-picture{
+    //                 width: 400px;
+    //                 aspect-ratio: 3/2;
+    //                 // height: 200px;
+    //                 overflow: hidden;
+
+    //                 &-img{
+    //                     width: 100%;
+    //                 }
+                    
+    //             }
+    
+    //         }
+    //     }
+            
+
+
+
+        
+        
+    // }
+
+    // &-images{
+    //     display: flex;
+    //     gap: 1rem;
+    //     overflow: hidden;
+    //     margin: 0 2rem;
+    //     overflow-x: scroll;
+
+    //     &-image{
+    //         width: 50%;
+    //         margin: 0 auto;
+
+    //         &-jpg{
+    //             width: 100%;
+
+    //             aspect-ratio: 3 / 3.5;
+    //         }
+    //     }
+
+
+        
+
+
+    // }
+
+
+    &-images {
+        display: grid;
+        margin-top: 8rem;
+        grid-template-columns: 1fr 1fr;
+        background-color: #2196F3;
+        padding: 10px;
+        width: 60%;
+
+        margin: 0 auto;
+        overflow: hidden;
+
+        &-image{
+            height: 100%;
+        }
+
+        &-video{
+            grid-column: 2 / span 3;
+            grid-row: 1 / span 3;
+
+        }
+        &-image2{
+            &-gallery{
+                // width: 100%;
+                height: 200px;
+                aspect-ratio: 2 / 1;
+            }
+
+            &-video{
+                width: 100%;
+                aspect-ratio: 2 /2;
+                height: 400px;
+            }
+        }
+    }
+}
+
+
+.gallery{
+    width: 80%!important;
+    margin: 0 auto;
+
+    &-images{
+        display: grid ;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

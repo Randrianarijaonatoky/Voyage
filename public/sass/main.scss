@@ -1,0 +1,24 @@
+@import 'base/base';
+@import 'base/input';
+
+@import'layouts/header';
+@import'layouts/footer';
+@import'pages/acceuil';
+@import'pages/voyages';
+@import'pages/inscription';
+@import'pages/connexion';
+@import'pages/contact';
+@import'pages/decouvert';
+@import'pages/profile';
+
+
+@import'admin/dashboard';
+@import'layouts/navDashboard';
+@import'admin/lesVoyages';
+@import'admin/modifVoyage';
+@import'admin/lesUtilisateur';
+@import'admin/reservation';
+@import'admin/messages';
+
+@import'mediQuery/min';
+@import'mediQuery/max';
